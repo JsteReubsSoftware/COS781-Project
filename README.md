@@ -11,13 +11,14 @@ This is a Data Mining Project for the COS781 Honours Module at the University of
 ### How to run the project:
 1. Clone the repository to your local machine using the command ```git clone https://github.com/JsteReubsSoftware/COS781-Project.git```
 2. Next, run the command ```cd COS781-project``` to change the working directory.
-3. We used Jupyter Notebook with Python to implement this project. Find the Notebook under the **Code** directory.
-4. Install the package to work with Jupyter Notebook by running the command ```pip install notebook```
-5. Create and activate a virtual environment by running the following commands in order:</br>
-5.1 Run the command `pip install virtualenv` </br>
-5.2 Create the `env` folder using the command `python -m venv env` </br>
-5.3 Activate the environment using the command `source env\\Scripts\\activate`. You should see the name of the env folder after running any command.</br>
-6. Install the required dependencies using the command `pip install -r requirements.txt` (*Make sure you are in the root directory when running this command*)
+3. Due to the data file size being too large we could not upload it to GitHub. Please download the data files by clicking on [this](https://datarepo.eng.ucsd.edu/mcauley_group/data/amazon_2023/raw/review_categories/Tools_and_Home_Improvement.jsonl.gz) link (Software.json file) and [this](https://datarepo.eng.ucsd.edu/mcauley_group/data/amazon_2023/raw/meta_categories/meta_Software.jsonl.gz) link (metadata.json). You can also download the zipped files at [this](https://drive.google.com/file/d/1DNkLucm_GI4ez0fQ46rFP-B7dGSPaGUh/view?usp=sharing) link.
+4. We used Jupyter Notebook with Python to implement this project. Find the Notebook under the **Code** directory.
+5. Install the package to work with Jupyter Notebook by running the command ```pip install notebook```
+6. Create and activate a virtual environment by running the following commands in order:</br>
+6.1 Run the command `pip install virtualenv` </br>
+6.2 Create the `env` folder using the command `python -m venv env` </br>
+6.3 Activate the environment using the command `source env\\Scripts\\activate`. You should see the name of the env folder after running any command.</br>
+7. Install the required dependencies using the command `pip install -r requirements.txt` (*Make sure you are in the root directory when running this command*)
 
 After running these commands the setup will be complete and you can run the Jupyter notebook cells and add your own experiments.
 
