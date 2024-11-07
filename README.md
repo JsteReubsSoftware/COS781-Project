@@ -25,6 +25,8 @@ After running these commands the setup will be complete and you can run the Jupy
 ```text
 Note: The requirements.txt file was generated on the Kaggle platform using the command `pip freeze > requirements.txt `.
 This means the file will contain other dependencies that might not have been used in this project.
+
+Additionally, the notebook includes file paths starting with `/kaggle/input' since we implemented this using the Kaggle Platform. Be sure to update these paths according to your needs.
 ```
 
 ### Example output for the Sentiment Analysis and Topic Modelling
