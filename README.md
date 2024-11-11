@@ -37,7 +37,7 @@ Additionally, the notebook includes file paths starting with `/kaggle/input' sin
 4. Create a New notebook by clicking on the Top Left `Create -> New Notebook` button.
 5. Once the new notebook is opened, click on the `File` button underneath the notebook file's name. Then select `Import Notebook`.
 6. Drag & drop or select the downloaded notebook from earlier. This will import the notebook and you will be ready to use it.
-7. To import the dataset, open up the right-side menu and click on the `Add Input` button.
+7. If the dataset is already added skip to step 12. Otherwise to import the dataset, open up the right-side menu and clicking on the `Add Input` button.
 8. Filter the search for datasets only by clicking on the 'Datasets' option.
 9. Search for the dataset named `cos781-Amazon-Software-Reviews`. It should contain the *Software.jsonl* and *meta_Software.jsonl* files. 
 10. Next, click on the `+` icon to add the dataset to your notebook.
