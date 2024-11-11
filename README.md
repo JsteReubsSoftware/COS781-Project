@@ -38,9 +38,10 @@ Additionally, the notebook includes file paths starting with `/kaggle/input' sin
 5. Once the new notebook is opened, click on the `File` button underneath the notebook file's name. Then select `Import Notebook`.
 6. Drag & drop or select the downloaded notebook from earlier. This will import the notebook and you will be ready to use it.
 7. To import the dataset, open up the right-side menu and click on the `Add Input` button.
-8. Search for the dataset named `cos781-amazon-software-reviews`. It should contain the *Software.jsonl* and *meta_Software.jsonl* files.
-9. Next, click on the `+` icon to add the dataset to your notebook.
-10. The setup is now complete and you can simply run the cells without worrying about file paths.
+8. Filter the search for datasets only by clicking on the 'Datasets' option.
+9. Search for the dataset named `cos781-Amazon-Software-Reviews`. It should contain the *Software.jsonl* and *meta_Software.jsonl* files. 
+10. Next, click on the `+` icon to add the dataset to your notebook.
+12. The setup is now complete and you can simply run the cells without worrying about file paths.
 
 ### Example output for the Sentiment Analysis and Topic Modelling
 - Sentiment Analysis for top 10 products (note this is not the only output for the sentiment analysis section)
